@@ -6,7 +6,7 @@
   <groupId>shuttlebus</groupId>
   <!-- <artifactId>SBBS</artifactId> -->
   <!-- SpringRegister3 -->
-  <artifactId>ShuttleBusSystem</artifactId>
+  <artifactId>ShuttleBusTesting</artifactId>
   <!--artifactId>SBBS</artifactId-->
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
