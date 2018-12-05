@@ -286,6 +286,11 @@
  <build>
     <finalName>ShuttleBus1</finalName>
     <plugins>
+      <plugin>
+               <groupId>org.eluder.coveralls</groupId>
+               <artifactId>coveralls-maven-plugin</artifactId>
+               <version>4.3.0</version>
+           </plugin>
     <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-war-plugin</artifactId>
@@ -364,5 +369,15 @@
     	</plugins>
     </pluginManagement>
  </build>
+ <reporting>
+       <plugins>
+           <plugin>
+               <groupId>org.jacoco</groupId>
+               <artifactId>jacoco-maven-plugin</artifactId>
+               <version>${jacoco.version}</version>
+           </plugin>
+       </plugins>
+ 
+   </reporting>
 
 </project>
